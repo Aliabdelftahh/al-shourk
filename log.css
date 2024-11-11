@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Lalezar&family=Lateef:wght@200;300;400;500;600;700;800&family=Lemonada:wght@300..700&family=Mirza:wght@400;500;600;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Lalezar&family=Lateef:wght@200;300;400;500;600;700;800&family=Lemonada:wght@300..700&family=Mirza:wght@400;500;600;700&family=Oswald:wght@200..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    padding: 30px 30px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.nav h2 a{
+    text-decoration: none;
+    font-family: 'Lalezar', system-ui;
+    font-size: 40px;
+    color: black;
+    flex-wrap: wrap;
+}
+.amir{
+    width: 100%;
+    padding: 10px 10px;
+}
+.amir h2{
+    text-align: left;
+    padding: 20px 40px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.ali{
+    width: 35rem;
+    padding: 30px 30px;
+    flex-wrap: wrap;
+    
+}
+.ali .b1{
+width: 40rem;
+height: 40px;
+position: relative;
+left: 50px;
+}
+
+.text1{
+    font-size: 22px;
+    background-color: white;
+}
+.text3{
+    font-size: 22px;
+    background-color: white;
+}
+.text2{
+    text-align: center;
+    width: 40rem;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    position: relative;
+left: 50px;
+}
+form{
+    width: 40rem;
+    position: relative;
+left: 50px;
+}
+label{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input{
+    width: 40rem;
+    height: 35px;
+    text-align: center;
+
+}
+.id{
+    width: 40rem;
+    height: 35px;
+    border-radius: 40px;
+    background-color: black; 
+    color: white;
+    font-size: 22px;
+}
+h3{
+font-size: 15px;
+}
+
+.image{
+    width: 32rem;
+    height: 35rem;
+    background-color: darkturquoise;
+    position: relative;
+    right: 5%;
+    flex-wrap: wrap;
+    background-image: url(image/Screenshot\ 2024-11-04\ 185343.png);
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px;
+}
+.end footer{
+    width: 100%;
+    background-color: black;
+    height: 20rem;
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 2;  
+}
+.fa-brands{
+    width: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#copy{
+    position: relative;
+   top: 120px;
+   right: 350px;
+}
